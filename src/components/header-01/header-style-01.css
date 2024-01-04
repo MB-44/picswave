@@ -10,6 +10,29 @@
     white-space: nowrap;
 }
 
-.header-search-menu {
+.header-search-menu li {
+    list-style-type: none;
+}
+
+.header-search-menu ul {
+    display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.header-search-menu li a {
+    font-size: 18px;
+    font-weight: bold;
+    font-family:  "Poppins-SemiBol", Helvetica;
+    color: #212529;
+    text-decoration: none;
+}
+
+.header-search-menu button {
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin-right: 5px;
 }
